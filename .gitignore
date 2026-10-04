@@ -1,0 +1,9 @@
+# RStudio session meta files - never track or commit these
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Operating system meta files - also never track or commit
+.DS_Store
+Thumbs.db

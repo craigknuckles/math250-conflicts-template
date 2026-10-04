@@ -1,0 +1,14 @@
+---
+title: "Team Plot"
+output: html_document
+---
+
+```{r setup, include = FALSE}
+library(ggplot2)
+```
+
+```{r team-plot}
+ggplot(mpg, aes(x = displ, y = hwy)) +
+  geom_point() +
+  labs(title = "Our team's title goes here")
+```
