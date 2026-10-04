@@ -7,5 +7,5 @@
 
 try(suppressMessages(usethis::use_git_config(scope = "project", pull.rebase = "false")), silent = TRUE)
 
-# usethis::use_git_config() is the same function you used in the Github_Workflow worksheet to set your name and email.  
+# usethis::use_git_config() is the same function used in the Github Workflow worksheet to set a name and email.  
 # suppressMessages() and try(..., silent = TRUE) keep any messages from printing when this script runs.  
